@@ -1,0 +1,27 @@
+#Alisha's Masters Code - Species Distribution Modelling
+#Following tutorials by Richard Pearson (UCL) and Damaris Zurell
+
+#Part 1: Species Occurrence Data from GBIF
+a) Install all packages needed
+
+install.packages("dismo")
+install.packages("maps") - at the time of this masters 'maptools' is not available
+install.packages("mapdata")
+install.packages("dplyr")
+install.packages("CoordinateCleaner")
+install.packages("raster")
+install.packages("ggplot2")
+install.packages("scales")
+
+
+b) Load the packages into R
+library(dismo)
+library(maps)    
+library(mapdata) 
+library(dplyr)
+library(CoordinateCleaner)
+
+
+c) Create a folder to keep all the files in 
+
+
